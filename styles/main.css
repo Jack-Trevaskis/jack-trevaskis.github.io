@@ -1,0 +1,37 @@
+.jack-trevaskis {
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: 100px;
+    text-align: center;
+    background-color: rgb(0, 179, 255);
+
+}
+
+.link-page-head {
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-size: 40px;
+    background-color: rgb(0, 179, 255);
+    width: 190px;
+    text-align: center;
+}
+
+.link-page {
+    background-color: rgb(217, 217, 217);
+    width: 190px;
+    height: 380px;
+}
+
+.link-page-blog {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black
+}
+
+body{
+    background-image: url(../IMG/powder-ski.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+    
