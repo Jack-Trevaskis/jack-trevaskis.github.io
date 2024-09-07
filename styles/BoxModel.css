@@ -12,13 +12,14 @@
 .return {
     background-color: rgb(217, 217, 217);
     position: relative;
-    bottom: 115px;
+    bottom: 120px;
     left: 20px;
     height: 35px;
     width: 120px;
     text-align: center;
     border-color: black;
     border-style: solid;
+    font-size: 20px;
 }
 
 .body-font {
