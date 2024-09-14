@@ -59,3 +59,23 @@ document.getElementById("button").onclick = imgIdTracker
 
 
 
+// Drop down menu
+
+
+
+const blogs = document.getElementById("blogs");
+const blogDrop = document.getElementById("blogsDrop") 
+
+
+function blogsDrop (event) {
+    blogDrop.classList.remove("blogsUp")
+    blogDrop.classList.add("blogsDrop")
+}
+
+function blogsUp (event) {
+    blogDrop.classList.remove("blogsDrop")
+    blogDrop.classList.add("blogsUp")
+}
+
+blogs.addEventListener("mouseover", blogsDrop)
+blogDrop.addEventListener("mouseout", blogsUp)
