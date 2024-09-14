@@ -75,14 +75,25 @@ let blogsUpDown = 0
 function blogsDrop() {
   
     if (blogsUpDown < 1) {
-      blogDrop.classList.remove("blogsUp")
-      blogDrop.classList.add("blogsDrop")
+
+      blogDrop.classList.remove("dropUp")
+      blogDrop.classList.add("dropDown")
+
+      personalDrop.classList.remove("dropDown")
+      personalDrop.classList.add("dropUp")
+
+      DADrop.classList.remove("dropDown")
+      DADrop.classList.add("dropUp")
+
       blogsUpDown++
+      personalUpdown = 0
+      DAUpDown = 0
+
     }
     else {
     
-      blogDrop.classList.remove("blogsDrop")
-      blogDrop.classList.add("blogsUp")
+      blogDrop.classList.remove("dropDown")
+      blogDrop.classList.add("dropUp")
       blogsUpDown = 0
     }
   
@@ -106,14 +117,23 @@ function personalsDrop() {
   
     if (personalUpDown < 1) {
       
-      personalDrop.classList.remove("personalUp")
-      personalDrop.classList.add("personalDrop")
+      personalDrop.classList.remove("dropUp")
+      personalDrop.classList.add("dropDown")
+
+      DADrop.classList.remove("dropDown")
+      DADrop.classList.add("dropUp")
+
+      blogDrop.classList.remove("dropDown")
+      blogDrop.classList.add("dropUp")
+
       personalUpDown++
+      blogsUpDown = 0
+      DAUpDown = 0
     }
     else {
       
-      personalDrop.classList.remove("personalDrop")
-      personalDrop.classList.add("personalUp")
+      personalDrop.classList.remove("dropDown")
+      personalDrop.classList.add("dropUp")
       personalUpDown = 0
     }
   
@@ -136,14 +156,23 @@ function DAsDrop() {
   
     if (DAUpDown < 1) {
       
-      DADrop.classList.remove("DAUp")
-      DADrop.classList.add("DADrop")
+      DADrop.classList.remove("dropUp")
+      DADrop.classList.add("dropDown")
+
+      blogDrop.classList.remove("dropDown")
+      blogDrop.classList.add("dropUp")
+
+      personalDrop.classList.remove("dropDown")
+      personalDrop.classList.add("dropUp")
+
       DAUpDown++
+      personalUpDown = 0
+      blogsUpDown = 0
     }
     else {
       
-      DADrop.classList.remove("DADrop")
-      DADrop.classList.add("DAUp")
+      DADrop.classList.remove("dropDown")
+      DADrop.classList.add("dropUp")
       DAUpDown = 0
     }
   
