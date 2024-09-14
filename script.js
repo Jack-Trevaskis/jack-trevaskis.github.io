@@ -4,39 +4,59 @@
 
 let imgIndex = 0
 
+
 let IMG = document.getElementById('body')
+
+let skiIMG = document.getElementById('skiChange')
+
+let guitarIMG = document.getElementById('guitarChange')
+
 
 document.getElementById("body").classList.add("backgroundIMG1")
 
 
+const change = document.getElementById("clickBox");
+
 
 function changeBackground() {
   
+    //changes to guitar
+
   if (imgIndex < 1) {
 
     imgIndex++
 
     IMG.classList.remove("backgroundIMG1")
-
     IMG.classList.add('backgroundIMG2')
 
-    document.getElementById("button").innerHTML = "JAcK SHREDZ ON GUITAR????"
+    skiIMG.classList.remove('IMGOff')
+    skiIMG.classList.add("IMGChange")
+    
+
+    guitarIMG.classList.remove('IMGChange')
+    guitarIMG.classList.add('IMGOff')
   }
+
+    //changes to ski
+
   else {
 
     imgIndex = 0
 
     IMG.classList.remove("backgroundIMG2")
-
     IMG.classList.add("backgroundIMG1")
 
-    document.getElementById("button").innerHTML = "JACK SHREDZ ON SKIS????"
+    skiIMG.classList.remove("IMGChange")
+    skiIMG.classList.add('IMGOff')
+
+    guitarIMG.classList.remove('IMGOff')
+    guitarIMG.classList.add('IMGChange')
+
   }
 
 }
 
-document.getElementById("button").onclick = changeBackground
-
+change.addEventListener("click", changeBackground)
 
 
 // --------------- DROP DOWN MENUS --------------------

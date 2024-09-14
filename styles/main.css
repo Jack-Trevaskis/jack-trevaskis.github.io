@@ -159,3 +159,41 @@ img {
     width: 140px;
 
   }
+
+
+
+
+
+
+.clickBox {
+
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    right: 130px;
+    top: 35px;
+    color: red;
+}
+
+
+
+  .IMGChange {
+
+    
+
+    border-color:whitesmoke;
+    border-style: solid;
+    border-radius: 100%;
+    position: absolute;
+    right: 130px;
+    top: 35px;
+    width: 90px;
+    height: 90px;
+
+  }
+
+  .IMGOff {
+    height: 0px;
+    width: 0px;
+  }
+
