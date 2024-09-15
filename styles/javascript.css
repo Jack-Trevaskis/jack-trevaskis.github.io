@@ -1,0 +1,30 @@
+.heading-1 {
+ 
+    color: Black;
+    font-family: monospace;
+    font-size: 50px;
+    text-align: center;
+    background-color: whitesmoke;
+    height: 130px;
+    padding: 1%;
+    position: relative;
+    bottom: 40px;
+}
+
+.return {
+    
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    border-radius: 100%;
+    border-color:rgb(0, 179, 255);
+    border-style: solid
+
+}
+
+.body-font {
+    font-family: arial;
+}
+
