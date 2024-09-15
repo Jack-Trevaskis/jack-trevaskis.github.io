@@ -20,7 +20,7 @@
     width: 110px;
     position: absolute;
     top: 20px;
-    left: 130px;
+    left: 70px;
     border-radius: 100%;
     border-color:rgb(0, 179, 255);
     border-style: solid
@@ -132,7 +132,7 @@ img {
     height: 110px;
     width: 110px;
     position: absolute;
-    right: 130px;
+    right: 70px;
     top: 20px;
     
 }
@@ -147,7 +147,7 @@ img {
     border-style: solid;
     border-radius: 100%;
     position: absolute;
-    right: 130px;
+    right: 70px;
     top: 20px;
     width: 100px;
     height: 100px;
