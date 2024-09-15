@@ -1,3 +1,5 @@
+
+
 .jack-trevaskis {
     color: rgb(0, 179, 255);
     font-family: monospace;
@@ -14,6 +16,8 @@
     
 
 }
+
+
 
 .logo {
     height: 110px;
@@ -162,3 +166,105 @@ img {
 .invisibleText {
     color: whitesmoke;
 }
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+  .jack-trevaskis {
+
+    bottom: 520px;
+    left: -170px;
+    height: 300px;
+    width: 1200px;
+    font-size: 100px;
+    padding-top: 100px;
+
+    }
+
+  .logo {
+
+    height: 150px;
+    width: 150px;
+    top: 1620px;
+    left: 50px;
+    border-width: 10px;
+  }
+
+  .IMGChange {
+
+    left: 625px;
+    top: 1620px;
+    width: 150px;
+    height: 150px;
+    border-width: 10px;
+
+  }
+
+  .clickBox {
+
+    left: 625px;
+    top: 1620px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .dropDown {
+    
+
+    font-size:35px;
+    width: 600px;
+    height: 1100px;
+    top: 400px;
+    left: 120px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+
+
+  }
+
+
+
+
+  .blogs {
+    
+    bottom: 610px;
+    left: 110px;
+    font-size: 40px;
+    width: 75px;
+    
+
+
+  }
+
+
+
+
+  .personal {
+   
+    bottom: 610px;
+    left: 330px;
+    font-size: 40px;
+    width: 75px;
+
+}
+
+  .DA {
+    
+    bottom: 610px;
+    left: 600px;
+    font-size: 40px;
+    width: 180px;
+
+  }
+
+}
+
+
+
