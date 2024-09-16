@@ -30,10 +30,10 @@ function changeBackground() {
     IMG.classList.add('backgroundIMG2')
 
     skiIMG.classList.remove('IMGOff')
-    skiIMG.classList.add("IMGChange")
+    skiIMG.classList.add("skiChange")
     
 
-    guitarIMG.classList.remove('IMGChange')
+    guitarIMG.classList.remove('guitarChange')
     guitarIMG.classList.add('IMGOff')
   }
 
@@ -46,17 +46,61 @@ function changeBackground() {
     IMG.classList.remove("backgroundIMG2")
     IMG.classList.add("backgroundIMG1")
 
-    skiIMG.classList.remove("IMGChange")
+    skiIMG.classList.remove("skiChange")
     skiIMG.classList.add('IMGOff')
 
-    guitarIMG.classList.remove('IMGOff')
-    guitarIMG.classList.add('IMGChange')
+    guitarIMG.classList.remove('IMGOff')  
+    guitarIMG.classList.add('guitarChange')
 
   }
 
 }
 
 change.addEventListener("click", changeBackground)
+
+//   IMG HOVER
+
+const clickBox = document.getElementById("clickBox")
+
+function IMGHover () {
+
+ if(imgIndex < 1) {
+
+  guitarIMG.classList.remove("guitarChange")
+  guitarIMG.classList.add("guitarChangeHover")
+
+ }
+
+ else {
+
+  skiIMG.classList.remove("skiChange")
+  skiIMG.classList.add("skiChangeHover")
+
+ }
+
+}
+
+clickBox.addEventListener("mouseover", IMGHover)
+
+function IMGHoverOff () {
+
+ if (imgIndex < 1) {
+
+   guitarIMG.classList.remove("guitarChangeHover")
+   guitarIMG.classList.add("guitarChange")
+  }
+
+  else {
+
+   skiIMG.classList.remove("skiChangeHover")
+   skiIMG.classList.add("skiChange")
+
+ }
+
+}
+
+clickBox.addEventListener("mouseout", IMGHoverOff)
+
 
 
 // --------------- DROP DOWN MENUS --------------------
@@ -67,12 +111,14 @@ change.addEventListener("click", changeBackground)
 
 const blogs = document.getElementById("blogs");
 
-const blogDrop = document.getElementById("blogsDrop")
+const blogDrop = document.getElementById("blogsDrop");
 
 let blogsUpDown = 0
 
 
 function blogsDrop() {
+
+  
   
     if (blogsUpDown < 1) {
 
@@ -99,8 +145,9 @@ function blogsDrop() {
   
 }
 
-blogs.addEventListener("click", blogsDrop)
 
+
+blogs.addEventListener("click", blogsDrop)
 
 
 // PERSONAL
@@ -179,5 +226,90 @@ function DAsDrop() {
 }
 
 DA.addEventListener("click", DAsDrop)
+
+
+
+// ------ Hover ICON for DROP bar ----------
+
+
+
+//  create hover class
+//  detect mouse hover
+//  change class of element
+//  detect mouse off
+//  change class back to orignal
+
+
+// blogs hover
+
+
+const hoverBlog = document.getElementById("blogs")
+
+function blogsHover () {
+  
+  hoverBlog.classList.remove("blogs")
+  hoverBlog.classList.add("blogsHover")
+ 
+}
+
+hoverBlog.addEventListener("mouseover", blogsHover )
+
+function blogsOff () {
+
+  hoverBlog.classList.remove("blogsHover")
+  hoverBlog.classList.add("blogs")
+}
+
+hoverBlog.addEventListener("mouseout", blogsOff )
+
+
+// personal hover
+
+
+const hoverPersonal = document.getElementById("personal")
+
+function personalHover () {
+
+  hoverPersonal.classList.remove("personal")
+  hoverPersonal.classList.add("personalHover")
+
+}
+
+hoverPersonal.addEventListener("mouseover", personalHover )
+
+
+function personalOff () {
+
+  hoverPersonal.classList.remove("personalHover")
+  hoverPersonal.classList.add("personal")  
+
+}
+
+hoverPersonal.addEventListener("mouseout", personalOff )
+
+
+// DA Hover
+
+
+const hoverDA = document.getElementById("DA")
+
+function DAHover () {
+  
+  hoverDA.classList.remove("DA")
+  hoverDA.classList.add("DAHover")
+ 
+}
+
+hoverDA.addEventListener("mouseover", DAHover )
+
+function DAOff () {
+
+  hoverDA.classList.remove("DAHover")
+  hoverDA.classList.add("DA")
+}
+
+hoverDA.addEventListener("mouseout", DAOff )
+
+
 
 
