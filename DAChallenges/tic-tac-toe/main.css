@@ -1,0 +1,447 @@
+.heading-1 {
+ 
+    color: Black;
+    font-family: monospace;
+    font-size: 50px;
+    text-align: center;
+    background-color: whitesmoke;
+    height: 130px;
+    padding: 1%;
+    position: relative;
+    bottom: 40px;
+
+  }
+
+  .return {
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    border-radius: 100%;
+    border-color:rgb(0, 179, 255);
+    border-style: solid
+}
+  
+  
+  
+  
+  .box1 {
+  
+    height: 150px;
+    width: 150px;
+    border-color: black;
+    border-style: solid;
+  
+    position: relative;
+    left: 518px;
+    top: 55px;
+  
+  }
+  
+    .box1Click  {
+  
+        height: 150px;
+        width: 150px;
+        border-color: black;
+        border-style: solid;
+  
+        position: relative;
+        left: 518px;
+        top: 55px;
+  
+        background-color: red;
+  
+    }
+  
+    .box1Comp  {
+  
+        height: 150px;
+        width: 150px;
+        border-color: black;
+        border-style: solid;
+  
+        position: relative;
+        left: 518px;
+        top: 55px;
+  
+        background-color: blue;
+  
+  }
+  
+  
+  
+  .box2 {
+  
+    height: 150px;
+    width: 150px;
+    border-color: black;
+    border-style: solid;
+  
+    position: relative;
+    left: 670px;
+    bottom: 100px;
+    
+  }
+  
+    .box2Click {
+  
+        height: 150px;
+        width: 150px;
+        border-color: black;
+        border-style: solid;
+  
+        position: relative;
+        left: 670px;
+        bottom: 100px;
+  
+        background-color: red;
+    
+    }
+  
+    .box2Comp {
+  
+        height: 150px;
+        width: 150px;
+        border-color: black;
+        border-style: solid;
+  
+        position: relative;
+        left: 670px;
+        bottom: 100px;
+  
+        background-color: blue;
+    
+    }
+  
+  
+  
+  .box3 {
+  
+    height: 150px;
+    width: 150px;
+    border-color: black;
+    border-style: solid;
+  
+    position: relative;
+    left: 822px;
+    bottom: 254px;
+    
+  }
+  
+    .box3Click {
+  
+        height: 150px;
+        width: 150px;
+        border-color: black;
+        border-style: solid;
+  
+        position: relative;
+        left: 822px;
+        bottom: 254px;
+  
+        background-color: red;
+    
+    }
+  
+    .box3Comp {
+  
+        height: 150px;
+        width: 150px;
+        border-color: black;
+        border-style: solid;
+  
+        position: relative;
+        left: 822px;
+        bottom: 254px;
+  
+        background-color: blue;
+  
+    }
+  
+  
+  
+  .box4 {
+  
+    height: 150px;
+    width: 150px;
+    border-color: black;
+    border-style: solid;
+  
+    position: relative;
+    left: 518px;
+    bottom: 258px;
+    
+  }
+  
+    .box4Click {
+  
+        height: 150px;
+        width: 150px;
+        border-color: black;
+        border-style: solid;
+  
+        position: relative;
+        left: 518px;
+        bottom: 258px;
+  
+        background-color: red;
+    
+    }
+  
+    
+    .box4Comp {
+  
+        height: 150px;
+        width: 150px;
+        border-color: black;
+        border-style: solid;
+  
+        position: relative;
+        left: 518px;
+        bottom: 258px;
+  
+        background-color: blue;
+    
+    }
+  
+  
+  
+  .box5 {
+  
+    height: 150px;
+    width: 150px;
+    border-color: black;
+    border-style: solid;
+  
+    position: relative;
+    left: 670px;
+    bottom: 412px;
+    
+  }
+  
+    .box5Click {
+  
+        height: 150px;
+        width: 150px;
+        border-color: black;
+        border-style: solid;
+  
+        position: relative;
+        left: 670px;
+        bottom: 412px;
+  
+        background-color: red;
+    
+    }
+  
+    .box5Comp {
+  
+        height: 150px;
+        width: 150px;
+        border-color: black;
+        border-style: solid;
+  
+        position: relative;
+        left: 670px;
+        bottom: 412px;
+  
+        background-color: blue;
+    
+    }
+  
+  
+  .box6 {
+  
+    height: 150px;
+    width: 150px;
+    border-color: black;
+    border-style: solid;
+  
+    position: relative;
+    left: 822px;
+    bottom: 566px;
+    
+  }
+  
+    .box6Click {
+  
+        height: 150px;
+        width: 150px;
+        border-color: black;
+        border-style: solid;
+  
+        position: relative;
+        left: 822px;
+        bottom: 566px;
+  
+        background-color: red;
+    
+    }
+  
+    .box6Comp {
+  
+        height: 150px;
+        width: 150px;
+        border-color: black;
+        border-style: solid;
+  
+        position: relative;
+        left: 822px;
+        bottom: 566px;
+  
+        background-color: blue;
+    
+    }
+  
+  
+  
+  .box7 {
+  
+    height: 150px;
+    width: 150px;
+    border-color: black;
+    border-style: solid;
+  
+    position: relative;
+    left: 518px;
+    bottom: 570px;
+    
+  }
+  
+    .box7Click {
+  
+        height: 150px;
+        width: 150px;
+        border-color: black;
+        border-style: solid;
+  
+        position: relative;
+        left: 518px;
+        bottom: 570px;
+  
+        background-color: red;
+    
+    }
+  
+    .box7Comp {
+  
+        height: 150px;
+        width: 150px;
+        border-color: black;
+        border-style: solid;
+  
+        position: relative;
+        left: 518px;
+        bottom: 570px;
+  
+        background-color: blue;
+    
+    }
+  
+  
+  
+  .box8 {
+  
+    height: 150px;
+    width: 150px;
+    border-color: black;
+    border-style: solid;
+    
+    position: relative;
+    left: 670px;
+    bottom: 724px;
+  }
+  
+    .box8Click {
+  
+        height: 150px;
+        width: 150px;
+        border-color: black;
+        border-style: solid;
+    
+        position: relative;
+        left: 670px;
+        bottom: 724px;
+  
+        background-color: red;
+    }
+  
+    .box8Comp {
+  
+        height: 150px;
+        width: 150px;
+        border-color: black;
+        border-style: solid;
+    
+        position: relative;
+        left: 670px;
+        bottom: 724px;
+  
+        background-color: blue;
+    }
+  
+  
+  .box9 {
+  
+    height: 150px;
+    width: 150px;
+    border-color: black;
+    border-style: solid;
+  
+    position: relative;
+    left: 822px;
+    bottom: 878px;
+    
+  }
+  
+    .box9Click {
+  
+        height: 150px;
+        width: 150px;
+        border-color: black;
+        border-style: solid;
+  
+        position: relative;
+        left: 822px;
+        bottom: 878px;
+  
+        background-color: red;
+    
+    }
+  
+    .box9Comp {
+  
+        height: 150px;
+        width: 150px;
+        border-color: black;
+        border-style: solid;
+  
+        position: relative;
+        left: 822px;
+        bottom: 878px;
+  
+        background-color: blue;
+    
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .reset {
+  
+    height: 50px;
+    width: 100px;
+    position: relative;
+    left: 1050px;
+    bottom: 1135px;
+  
+  }
